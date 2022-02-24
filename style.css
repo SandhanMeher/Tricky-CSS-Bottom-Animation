@@ -1,0 +1,49 @@
+@import "btn-animation/btn-animation-style.css";
+.btn-animation-container {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    border: 1px solid #AAA;
+    width: 350px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-submit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-submit Label {
+    width: 85%;
+    /* height: 40px; */
+    font-size: 20px;
+    line-height: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-submit input {
+    width: 85%;
+    height: 10px;
+    font-size: 16px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+}
+
+.form-submit textarea {
+    width: 85%;
+    height: 150px;
+    font-size: 16px;
+    resize: none;
+    margin: 10px 0px;
+    padding: 10px 10px;
+}
